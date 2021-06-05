@@ -1,0 +1,65 @@
+//Łukasz Sztuka 243168 LAB01 Zad 04
+//26.10.2020r.
+
+.include "m328Pdef.inc"
+
+.DEF kierunek = R16
+.DEF jed = R17			
+.DEF zer = R18
+
+//inicjalizacja stosu
+
+LDI R16,low(RAMEND)
+OUT spl,R16
+LDI R16, high(RAMEND)
+OUT sph,R16
+
+LDI kierunek,0 //jeśli bit 0 = 0 to w prawo, jesli bit 0 = 1 to w lewo
+LDI jed, 0b11111111  
+LDI zer, 0b00000000
+
+OUT DDRD, jed // ustawiam port D jako wyjścia
+LDI R19,8     // do portu R19 wartosc 8 
+
+start:
+	RCALL czekaj
+	OUT portD,R19  
+	
+	SBRS kierunek,0 	// jesli bit 0 = 1 to pomiń
+		RCALL prawo		// skok do podprogramu prawo
+	SBRC kierunek,0 	// jesli bit0 = 0 to pomiń
+		RCALL lewo
+
+RJMP start
+
+// definuję podprogramy
+lewo:
+	SBRC R19,6
+	LDI kierunek,0
+	rol R19
+	
+RET
+
+prawo:
+	SBRC R19,0      
+	LDI kierunek,1  
+	ror R19			
+	
+RET
+
+czekaj: // opóźnienie 
+LDI R22,15
+p1:
+	LDI R23,255
+	p2:
+		LDI R24,255
+		p3:
+		DEC R24
+		BRNE p3
+	NOP
+	DEC R23
+	BRNE p2
+
+DEC R22
+BRNE p1
+RET

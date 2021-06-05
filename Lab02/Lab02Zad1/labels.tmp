@@ -1,0 +1,33 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.1.42</VERSION>
+ <DEVICE>ATmega328P</DEVICE>
+ <WORKING_DIR>C:\Users\DESKTOP-01\Desktop\LAB 02</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:\Program Files (x86)\Atmel\AVR Tools\AvrAssembler2\Appnotes</DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>C:\Users\DESKTOP-01\Desktop\LAB 02\MiM_Lab_02.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:\Program Files (x86)\Atmel\AVR Tools\AvrAssembler2\Appnotes\m328Pdef.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>C:\Users\DESKTOP-01\Desktop\LAB 02\MiM_Lab_02.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>C:\Users\DESKTOP-01\Desktop\LAB 02\MiM_Lab_02.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>C:\Users\DESKTOP-01\Desktop\LAB 02\MiM_Lab_02.map</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <glowna><FILE>C:\Users\DESKTOP-01\Desktop\LAB 02\MiM_Lab_02.asm</FILE><LINE>30</LINE></glowna>
+  <wartosc1><FILE>C:\Users\DESKTOP-01\Desktop\LAB 02\MiM_Lab_02.asm</FILE><LINE>56</LINE></wartosc1>
+  <wartosc2><FILE>C:\Users\DESKTOP-01\Desktop\LAB 02\MiM_Lab_02.asm</FILE><LINE>60</LINE></wartosc2>
+  <wartosc3><FILE>C:\Users\DESKTOP-01\Desktop\LAB 02\MiM_Lab_02.asm</FILE><LINE>64</LINE></wartosc3>
+  <powtorz><FILE>C:\Users\DESKTOP-01\Desktop\LAB 02\MiM_Lab_02.asm</FILE><LINE>45</LINE></powtorz>
+  <bb><FILE>C:\Users\DESKTOP-01\Desktop\LAB 02\MiM_Lab_02.asm</FILE><LINE>46</LINE></bb>
+  <czekaj><FILE>C:\Users\DESKTOP-01\Desktop\LAB 02\MiM_Lab_02.asm</FILE><LINE>68</LINE></czekaj>
+  <q1><FILE>C:\Users\DESKTOP-01\Desktop\LAB 02\MiM_Lab_02.asm</FILE><LINE>70</LINE></q1>
+  <q2><FILE>C:\Users\DESKTOP-01\Desktop\LAB 02\MiM_Lab_02.asm</FILE><LINE>72</LINE></q2>
+  <q3><FILE>C:\Users\DESKTOP-01\Desktop\LAB 02\MiM_Lab_02.asm</FILE><LINE>74</LINE></q3>
+ </LABELS>
+</ASSEMBLER_INFO>

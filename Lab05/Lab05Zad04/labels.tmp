@@ -1,0 +1,29 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.1.42</VERSION>
+ <DEVICE>ATmega328P</DEVICE>
+ <WORKING_DIR>E:\Studia\S07 (05)\MiMy\LAB05\Zad04</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:\Program Files (x86)\Atmel\AVR Tools\AvrAssembler2\Appnotes</DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>E:\Studia\S07 (05)\MiMy\LAB05\Zad04\Lab05Zad04.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:\Program Files (x86)\Atmel\AVR Tools\AvrAssembler2\Appnotes\m328Pdef.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>E:\Studia\S07 (05)\MiMy\LAB05\Zad04\Lab05Zad04.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>E:\Studia\S07 (05)\MiMy\LAB05\Zad04\Lab05Zad04.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>E:\Studia\S07 (05)\MiMy\LAB05\Zad04\Lab05Zad04.map</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <glowna><FILE>E:\Studia\S07 (05)\MiMy\LAB05\Zad04\Lab05Zad04.asm</FILE><LINE>22</LINE></glowna>
+  <czekaj2><FILE>E:\Studia\S07 (05)\MiMy\LAB05\Zad04\Lab05Zad04.asm</FILE><LINE>914</LINE></czekaj2>
+  <czekaj><FILE>E:\Studia\S07 (05)\MiMy\LAB05\Zad04\Lab05Zad04.asm</FILE><LINE>908</LINE></czekaj>
+  <p1><FILE>E:\Studia\S07 (05)\MiMy\LAB05\Zad04\Lab05Zad04.asm</FILE><LINE>916</LINE></p1>
+  <p2><FILE>E:\Studia\S07 (05)\MiMy\LAB05\Zad04\Lab05Zad04.asm</FILE><LINE>918</LINE></p2>
+  <p3><FILE>E:\Studia\S07 (05)\MiMy\LAB05\Zad04\Lab05Zad04.asm</FILE><LINE>920</LINE></p3>
+ </LABELS>
+</ASSEMBLER_INFO>

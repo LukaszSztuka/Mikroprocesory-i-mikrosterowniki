@@ -1,0 +1,30 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.1.42</VERSION>
+ <DEVICE>ATmega328P</DEVICE>
+ <WORKING_DIR>F:\Studia\S07 (05)\MiMy\Projekt\kod</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:\Program Files (x86)\Atmel\AVR Tools\AvrAssembler2\Appnotes</DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>F:\Studia\S07 (05)\MiMy\Projekt\kod\Projekt.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:\Program Files (x86)\Atmel\AVR Tools\AvrAssembler2\Appnotes\m328Pdef.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>F:\Studia\S07 (05)\MiMy\Projekt\kod\Projekt.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>F:\Studia\S07 (05)\MiMy\Projekt\kod\Projekt.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>F:\Studia\S07 (05)\MiMy\Projekt\kod\Projekt.map</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <glowna><FILE>F:\Studia\S07 (05)\MiMy\Projekt\kod\Projekt.asm</FILE><LINE>36</LINE></glowna>
+  <zolty><FILE>F:\Studia\S07 (05)\MiMy\Projekt\kod\Projekt.asm</FILE><LINE>38</LINE></zolty>
+  <zielony><FILE>F:\Studia\S07 (05)\MiMy\Projekt\kod\Projekt.asm</FILE><LINE>46</LINE></zielony>
+  <dalej1><FILE>F:\Studia\S07 (05)\MiMy\Projekt\kod\Projekt.asm</FILE><LINE>56</LINE></dalej1>
+  <zolty2><FILE>F:\Studia\S07 (05)\MiMy\Projekt\kod\Projekt.asm</FILE><LINE>60</LINE></zolty2>
+  <zielony2><FILE>F:\Studia\S07 (05)\MiMy\Projekt\kod\Projekt.asm</FILE><LINE>68</LINE></zielony2>
+  <dalej2><FILE>F:\Studia\S07 (05)\MiMy\Projekt\kod\Projekt.asm</FILE><LINE>78</LINE></dalej2>
+ </LABELS>
+</ASSEMBLER_INFO>

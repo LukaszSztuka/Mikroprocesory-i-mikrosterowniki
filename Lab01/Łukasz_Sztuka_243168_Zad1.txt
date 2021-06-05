@@ -1,0 +1,23 @@
+//Łukasz Sztuka 243168 LAB01 Zad 01 
+//26.10.2020r.
+
+.include "m328Pdef.inc"
+
+//pętla opóźniająca
+
+czekaj:
+LDI R18,102
+p1:
+	LDI R19,255
+	p2:
+		LDI R20, 255
+		p3:
+			DEC R20
+		BRNE p3
+		NOP		
+	DEC R19		
+	BRNE p2	
+DEC R18
+BRNE p1
+
+NOP 

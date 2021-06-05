@@ -1,0 +1,30 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.1.42</VERSION>
+ <DEVICE>ATmega328P</DEVICE>
+ <WORKING_DIR>C:\Users\DESKTOP-01\Desktop\Lab04\ZAD02</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:\Program Files (x86)\Atmel\AVR Tools\AvrAssembler2\Appnotes</DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>C:\Users\DESKTOP-01\Desktop\Lab04\ZAD02\Zad02.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:\Program Files (x86)\Atmel\AVR Tools\AvrAssembler2\Appnotes\m328Pdef.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>C:\Users\DESKTOP-01\Desktop\Lab04\ZAD02\Zad02.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>C:\Users\DESKTOP-01\Desktop\Lab04\ZAD02\Zad02.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>C:\Users\DESKTOP-01\Desktop\Lab04\ZAD02\Zad02.map</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <reset><FILE>C:\Users\DESKTOP-01\Desktop\Lab04\ZAD02\Zad02.asm</FILE><LINE>11</LINE></reset>
+  <przerw><FILE>C:\Users\DESKTOP-01\Desktop\Lab04\ZAD02\Zad02.asm</FILE><LINE>45</LINE></przerw>
+  <glowna><FILE>C:\Users\DESKTOP-01\Desktop\Lab04\ZAD02\Zad02.asm</FILE><LINE>38</LINE></glowna>
+  <czekaj><FILE>C:\Users\DESKTOP-01\Desktop\Lab04\ZAD02\Zad02.asm</FILE><LINE>55</LINE></czekaj>
+  <p1><FILE>C:\Users\DESKTOP-01\Desktop\Lab04\ZAD02\Zad02.asm</FILE><LINE>57</LINE></p1>
+  <p2><FILE>C:\Users\DESKTOP-01\Desktop\Lab04\ZAD02\Zad02.asm</FILE><LINE>59</LINE></p2>
+  <p3><FILE>C:\Users\DESKTOP-01\Desktop\Lab04\ZAD02\Zad02.asm</FILE><LINE>61</LINE></p3>
+ </LABELS>
+</ASSEMBLER_INFO>

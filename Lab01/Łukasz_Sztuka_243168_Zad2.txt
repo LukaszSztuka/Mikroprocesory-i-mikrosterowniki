@@ -1,0 +1,61 @@
+//Łukasz Sztuka 243168 LAB01 Zad 02 
+//26.10.2020r.
+
+.include "m328Pdef.inc"
+
+.DEF jed = R17
+.DEF zer = R18
+
+//inicjalizacja stosu
+LDI R16,low(RAMEND)
+OUT spl,R16
+LDI R16, high(RAMEND)
+OUT sph,R16
+
+LDI jed,0b11111111
+LDI zer,0b00000000
+
+OUT ddrD,jed // ustawienie pinu jako wyjścia
+
+start:
+	OUT PORTD, jed //diody włączone
+	RCALL czekaj
+	
+	OUT PORTD, zer  //diody wyłączone
+	RCALL czekaj2
+RJMP start	//zapętlenie
+
+
+//pętla opóźniająca 0,1s
+czekaj:		
+LDI R19,10
+p1:
+	LDI R20,255
+	p2:
+		LDI R21, 255
+		p3:
+			DEC R21
+		BRNE p3
+		NOP	
+		NOP	
+	DEC R20
+	BRNE p2	
+DEC R19
+BRNE p1
+RET
+
+czekaj2:		// 1s
+LDI R22,102
+q1:
+	LDI R23,255
+	q2:
+		LDI R24, 255
+		q3:
+			DEC R24
+		BRNE q3
+		NOP		
+	DEC R23
+	BRNE q2	
+DEC R22
+BRNE q1
+RET

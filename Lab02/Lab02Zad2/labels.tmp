@@ -1,0 +1,28 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.1.42</VERSION>
+ <DEVICE>ATmega328P</DEVICE>
+ <WORKING_DIR>C:\Users\DESKTOP-01\Desktop</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:\Program Files (x86)\Atmel\AVR Tools\AvrAssembler2\Appnotes</DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>C:\Users\DESKTOP-01\Desktop\Lab02Zad02.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:\Program Files (x86)\Atmel\AVR Tools\AvrAssembler2\Appnotes\m328Pdef.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>C:\Users\DESKTOP-01\Desktop\Lab02Zad02.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>C:\Users\DESKTOP-01\Desktop\Lab02Zad02.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>C:\Users\DESKTOP-01\Desktop\Lab02Zad02.map</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <glowna><FILE>C:\Users\DESKTOP-01\Desktop\Lab02Zad02.asm</FILE><LINE>29</LINE></glowna>
+  <czekaj><FILE>C:\Users\DESKTOP-01\Desktop\Lab02Zad02.asm</FILE><LINE>62</LINE></czekaj>
+  <q1><FILE>C:\Users\DESKTOP-01\Desktop\Lab02Zad02.asm</FILE><LINE>64</LINE></q1>
+  <q2><FILE>C:\Users\DESKTOP-01\Desktop\Lab02Zad02.asm</FILE><LINE>66</LINE></q2>
+  <q3><FILE>C:\Users\DESKTOP-01\Desktop\Lab02Zad02.asm</FILE><LINE>68</LINE></q3>
+ </LABELS>
+</ASSEMBLER_INFO>
