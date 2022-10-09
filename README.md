@@ -11,11 +11,11 @@ Zad 4 - Knight Rider - [Film](https://youtube.com/shorts/QglkY5_SGK0?feature=sha
 Zad 1 - Sterowanie diodą za pomocą przycisku - [Film](https://youtube.com/shorts/d8vwYLtO3hY?feature=share)  
 Zad 2 – Wyświetlanie numeru indeksu na wyświetlaczy 8 segmentowym - [Film](https://youtu.be/kLUJErqGA8U)  
 Zad 3 -  Wyświetlanie numeru indeksu po cyfrze do przodu i do tyłu sterowane przyciskiem - [Film](https://youtu.be/Hj4jXT0fk1w)  
-3.	Lab 3 
+3.	Lab 3  
 Zad 1 - Konwerter ADC z wyświetlaniem wyniku na diodach binarnie - [Film](https://youtu.be/g6KPizMbZKM)  
 Zad 2 – Obsługa termometru  - [Film](https://youtu.be/pW9g57mbclQ)  
 Zad 3 - Konwerter ADC z wyświetlaniem wyniku na diodach skalowo  - [Film](https://youtu.be/4g83YehPlSY)  
-4.	Lab 4 
+4.	Lab 4  
 Zad 1 – Obsługa licznika T/C0 tryb normalny - [Film](https://youtu.be/9oSjVhQwHbM)  
 Zad 2 - Obsługa licznika T/C0 tryb CTC - [Film](https://youtu.be/7ZgGXaG6lFg)  
 Zad 3 - Obsługa licznika T/C2 odliczane 68 ms  
